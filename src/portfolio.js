@@ -20,26 +20,29 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rosa",
+  title: "Hi all, I'm Rosa",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Computer science graduate with a passion for developing scalable web applications and working across the full stack. 🚀 I would jump at any opportunity to continue growing my skillset set while contributing to the positive outcome of making people : richer, smarter, and happier."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15IDfW33KS3NjFWrthjwK-atfbN4xeeVo/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/RosaElysabeth",
+  linkedin: "https://www.linkedin.com/in/rosa7/",
+  gmail: "ralinirinarosa7@gmail.com",
+  gitlab: "https://gitlab.com/Elysabeth",
+  facebook: "https://web.facebook.com/rosa.ralinirina.1/",
+  instagram: "https://www.instagram.com/rosa.elysabeth/",
+  twitter: "https://twitter.com/RRalinirina",
+  medium: "https://medium.com/@ralinirinarosa7",
+  stackoverflow: "https://stackoverflow.com/users/20722510/rosa-elysabeth-ralinirina",
+  kaggle: "https://www.kaggle.com/rosaelysabeth",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -56,7 +59,7 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services "
     )
   ],
 
@@ -73,8 +76,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -89,8 +92,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "yarn",
+      fontAwesomeClassname: "fab fa-yarn"
     },
     {
       skillName: "npm",
@@ -101,8 +104,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "symfony",
+      fontAwesomeClassname: "fab fa-symfony"
     },
     {
       skillName: "firebase",
@@ -126,23 +129,33 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Ecole Nationale d'Informatique - University of Fianarantsoa",
+      logo: require("./assets/images/logoENI.png"),
+      subHeader: "Professional Master of Computer Science",
+      duration: "February 2022 - Present ",
+      desc: "Software and Database Engineering",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "President of ENI students association",
+        "Organized many events for ENI students"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Ecole Nationale d'Informatique - University of Fianarantsoa",
+      logo: require("./assets/images/logoENI.png"),
+      subHeader: "Professional Bachelor of Computer Science",
+      duration: "November 2017 - September 2021",
+      desc: "Software and Database Engineering" ,
+      descBullets: [
+        "Ranked top 10% in the program. Took courses about Software Engineering, Operating Systems, ...",
+        "Graduated with honors",
+      ]
+    },
+    {
+      schoolName: "Lycée Privé Fo Masin'i Jesoa - Talatamaty Fianarantsoa",
+      logo: require("./assets/images/logofmj.png"),
+      subHeader: "High School",
+      duration: "October 2014 - July 2017",
+      desc: "Baccalauréat Série C - 2017 session" ,
     }
   ]
 };
@@ -154,15 +167,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +187,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "MINAE",
+      companylogo: require("./assets/images/MINAE.jpg"),
+      date: "August 2022 – Present",
+      desc: "Digital advice platform of the Ministry of Agriculture and Livestock. ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Member of the Globy team ",
+        "Contrat",
+        "Skills : Express.js · Front Office · Ant Design · Yarn · Jira · sequelize · Swagger API · React.js · PostgreSQL"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Student Trainee",
+      company: "ENI",
+      companylogo: require("./assets/images/logoENI.png"),
+      date: "March 2021 – June 2021",
+      desc: "Internship in computer science within the department of mention of the ENI",
+      descBullets: [
+        "Theme: Design and production of a web application for the management of student internships",
+        "Skills : Node.js · React.js · Unified Modeling Language (UML) · PostgreSQL · Sequelize.js"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Student Trainee",
+      company: "Mahefa & Company",
+      companylogo: require("./assets/images/mahefa.png"),
+      date: "November 2019 – January 2020",
+      desc: "IT internship",
+      descBullets: [
+        "Theme: Design and production of a web application for the management of the kaly of an e-catering system in Symfony with the MySQL DBMS",
+        "Skills : Symfony Framework · MySQL"
+      ]
     }
   ]
 };
@@ -216,25 +238,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/afaas.jfif"),
+      projectName: "AFAAS",
+      projectDesc: "Database management of extension workers and their activities",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://r2e.afaas-africa.org/account/login"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/MINAE.jpg"),
+      projectName: "MINAE",
+      projectDesc: "Digital advice platform",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://minae-globy-tnrunlimited-part4-tnrunlimited.vercel.app/"
         }
       ]
     }
@@ -248,54 +270,57 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Africa-wide Hackathon Champion",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Member of the TNRUnlimited team, African champion during the continental phase of the AFAAS Hackathon 2021",
+      image: require("./assets/images/TNR.png"),
+      imageAlt: "TNRUnlimited Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Website",
+          url: "https://innovaa.netlify.app/"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "INNOVAA Slides",
+          url: "https://drive.google.com/file/d/1tX3irO6lOhfHPSTJZJm5UnVWAjKNrJ3F/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "DEVHUNT competition",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Organized IT Events for ENI students",
+      image: require("./assets/images/AEENI.png"),
+      imageAlt: "AEENI Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Details",
+          url: "https://web.facebook.com/AssociationEtudiantENIInformatiqueFianarantsoa/photos/pb.100083085014708.-2207520000./146528521332427/?type=3"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Vice National Hackathon Champion",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      image: require("./assets/images/afaas.jfif"),
+      imageAlt: "AFAAS Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
+        },
+        {
+          name: "Project",
+          url: "https://innovaa.netlify.app/"
         }
       ]
     }
@@ -308,8 +333,8 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Developing cool stuff, I love to read and to learn new things.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -332,7 +357,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE😅"
   ),
 
   talks: [
@@ -343,7 +368,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +381,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+261349078445",
+  email_address: "ralinirinarosa7@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
