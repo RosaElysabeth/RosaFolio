@@ -10,12 +10,12 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Rosa")}
+          {emoji("Made with ❤️ by TNRUnlimited Team")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
-          <a href="https://github.com/TNRUnlimited/RosaFolio">
-           Rosa
+          <a href="https://github.com/saadpasta/developerFolio">
+           developerFolio
           </a>
         </p>
       </div>

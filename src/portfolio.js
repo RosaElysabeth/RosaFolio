@@ -187,14 +187,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer",
+      role: "Student Trainee",
+      company: "Unité de Gouvernance Digitale",
+      companylogo: require("./assets/images/ugd.jfif"),
+      date: "October 2022 – Present",
+      descBullets: [
+        "Visit and interview of users",
+        ]
+    },
+    {
+      role: "Full Stack Developer Extern",
       company: "MINAE",
       companylogo: require("./assets/images/MINAE.jpg"),
       date: "August 2022 – Present",
       desc: "Digital advice platform of the Ministry of Agriculture and Livestock. ",
       descBullets: [
         "Member of the Globy team ",
-        "Contrat",
+        "CDD",
         "Skills : Express.js · Front Office · Ant Design · Yarn · Jira · sequelize · Swagger API · React.js · PostgreSQL"
       ]
     },
@@ -219,7 +228,7 @@ const workExperiences = {
         "Theme: Design and production of a web application for the management of the kaly of an e-catering system in Symfony with the MySQL DBMS",
         "Skills : Symfony Framework · MySQL"
       ]
-    }
+    },
   ]
 };
 
@@ -242,10 +251,10 @@ const bigProjects = {
       projectName: "AFAAS",
       projectDesc: "Database management of extension workers and their activities",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://r2e.afaas-africa.org/account/login"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://r2e.afaas-africa.org/account/login"
+        // }
         //  you can add extra buttons here.
       ]
     },
@@ -256,8 +265,19 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://minae-globy-tnrunlimited-part4-tnrunlimited.vercel.app/"
+          url: "https://design.penpot.app/#/view/13a77fb0-43fb-11ed-869b-c67f7655c7b3?page-id=13a77fb1-43fb-11ed-869b-c67f7655c7b3&section=interactions&index=0&share-id=be88a930-44b5-11ed-9ecb-aec52455fe53"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/logoENI.png"),
+      projectName: "ENI Practice",
+      projectDesc: "Design and production of a web application for the management of student internships",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "https://design.penpot.app/#/view/13a77fb0-43fb-11ed-869b-c67f7655c7b3?page-id=13a77fb1-43fb-11ed-869b-c67f7655c7b3&section=interactions&index=0&share-id=be88a930-44b5-11ed-9ecb-aec52455fe53"
+        // }
       ]
     }
   ],
@@ -282,14 +302,14 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
+          url: "https://drive.google.com/file/d/1ASGwvRbIKakvmBBZ4ft7dvS01FfsjZTt/view?usp=sharing"
         },
         {
           name: "Website",
           url: "https://innovaa.netlify.app/"
         },
         {
-          name: "INNOVAA Slides",
+          name: "Slideshow",
           url: "https://drive.google.com/file/d/1tX3irO6lOhfHPSTJZJm5UnVWAjKNrJ3F/view?usp=sharing"
         }
       ]
@@ -309,21 +329,57 @@ const achievementSection = {
     },
 
     {
-      title: "Vice National Hackathon Champion",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/afaas.jfif"),
-      imageAlt: "AFAAS Logo",
+      title: "FCA Madagascar Hackathon 2021 - National 2nd Prize",
+      subtitle: "National 2nd Prize winner during the Hackathon organized by FCA Madagascar and AvanaHub for the selection of the representants of Madagascar for the International Stage of AFAAS Hackathon.",
+      image: require("./assets/images/FCA.png"),
+      imageAlt: "FCA Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
-        },
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
+        // },
         {
           name: "Project",
           url: "https://innovaa.netlify.app/"
         }
       ]
-    }
+    },
+    {
+      title: "DELF B2",
+      subtitle: "Diplôme d'Études en Langue Française de niveau intermédiaire (B2).",
+      image: require("./assets/images/DELF_DALF.png"),
+      imageAlt: "DELF Logo",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
+        // },
+      ]
+    },
+    {
+      title: "ByRosa",
+      subtitle: "Cosmetics brand manager",
+      image: require("./assets/images/byrosa.jpg"),
+      imageAld:"ByRosa logo",
+      footerLink: [
+        {
+          name: "Page",
+          url: "https://web.facebook.com/byrosaralinirina"
+        }
+      ]
+    },
+    {
+      title: "R4",
+      subtitle: "Manager of the object personalization company",
+      image: require("./assets/images/R4.png"),
+      imageAld:"R4 logo",
+      footerLink: [
+        {
+          name: "Page",
+          url: "https://web.facebook.com/R4StoreFianar"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -349,7 +405,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -395,8 +451,8 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "RRalinirina", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
