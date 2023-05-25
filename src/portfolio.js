@@ -131,7 +131,7 @@ const educationInfo = {
     {
       schoolName: "Ecole Nationale d'Informatique - University of Fianarantsoa",
       logo: require("./assets/images/logoENI.png"),
-      subHeader: "Professional Master of Computer Science",
+      subHeader: "Research Master of Computer Science",
       duration: "February 2022 - Present ",
       desc: "Software and Database Engineering",
       descBullets: [
@@ -251,10 +251,10 @@ const bigProjects = {
       projectName: "AFAAS",
       projectDesc: "Database management of extension workers and their activities",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "http://r2e.afaas-africa.org/account/login"
-        // }
+        {
+          name: "Visit Website",
+          url: "http://r2e2f.afaas-africa.org"
+        }
         //  you can add extra buttons here.
       ]
     },
