@@ -26,7 +26,7 @@ const greeting = {
     "Computer science graduate with a passion for developing scalable web applications and working across the full stack. 🚀 I would jump at any opportunity to continue growing my skillset set while contributing to the positive outcome of making people : richer, smarter, and happier."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15IDfW33KS3NjFWrthjwK-atfbN4xeeVo/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wRdZVu905TpQqWh1XJVI4GNU-Qbk6NAM/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -190,7 +190,7 @@ const workExperiences = {
       role: "Student Trainee",
       company: "Unité de Gouvernance Digitale",
       companylogo: require("./assets/images/ugd.jfif"),
-      date: "October 2022 – Present",
+      date: "October 2022 – January 2023",
       descBullets: [
         "Visit and interview of users",
         ]
@@ -199,7 +199,7 @@ const workExperiences = {
       role: "Full Stack Developer Extern",
       company: "MINAE",
       companylogo: require("./assets/images/MINAE.jpg"),
-      date: "August 2022 – Present",
+      date: "August 2022 – January 2023",
       desc: "Digital advice platform of the Ministry of Agriculture and Livestock. ",
       descBullets: [
         "Member of the Globy team ",
