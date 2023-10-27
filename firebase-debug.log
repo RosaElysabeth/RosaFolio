@@ -1,0 +1,40 @@
+[debug] [2023-10-27T11:36:49.220Z] ----------------------------------------------------------------------
+[debug] [2023-10-27T11:36:49.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rhchr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-27T11:36:49.223Z] CLI Version:   12.4.8
+[debug] [2023-10-27T11:36:49.223Z] Platform:      win32
+[debug] [2023-10-27T11:36:49.223Z] Node Version:  v18.17.1
+[debug] [2023-10-27T11:36:49.224Z] Time:          Fri Oct 27 2023 14:36:49 GMT+0300 (heure normale de l’Arabie)
+[debug] [2023-10-27T11:36:49.224Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-27T11:36:49.296Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-27T11:36:49.297Z] > authorizing via signed-in user (ralinirinarosa7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\GIT\RosaFolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-10-27T11:37:16.559Z] ----------------------------------------------------------------------
+[debug] [2023-10-27T11:37:16.561Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rhchr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-27T11:37:16.562Z] CLI Version:   12.4.8
+[debug] [2023-10-27T11:37:16.562Z] Platform:      win32
+[debug] [2023-10-27T11:37:16.563Z] Node Version:  v18.17.1
+[debug] [2023-10-27T11:37:16.564Z] Time:          Fri Oct 27 2023 14:37:16 GMT+0300 (heure normale de l’Arabie)
+[debug] [2023-10-27T11:37:16.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-27T11:37:16.632Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-27T11:37:16.633Z] > authorizing via signed-in user (ralinirinarosa7@gmail.com)
+[debug] [2023-10-27T11:37:16.633Z] [iam] checking project rosafolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-27T11:37:16.635Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/rosafolio:testIamPermissions [none]
+[debug] [2023-10-27T11:37:16.635Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/rosafolio:testIamPermissions x-goog-quota-user=projects/rosafolio
+[debug] [2023-10-27T11:37:16.635Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rosafolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

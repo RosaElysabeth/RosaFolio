@@ -194,7 +194,7 @@ const workExperiences = {
       desc: "Customized version of the R2E2F for Madagascar : Bridge that will bring researchers, extension workers, and farmers together",
       descBullets: [
         "Member TNRUnlimited team ",
-        "CDD",
+        "Fixed-term contract",
         "Skills : React - Next"
       ]
     },
@@ -206,7 +206,7 @@ const workExperiences = {
       desc: "Bridge that will bring researchers, extension workers, and farmers together",
       descBullets: [
         "Member TNRUnlimited team ",
-        "CDD",
+        "Fixed-term contract",
         "Skills : React - Next"
       ]
     },
@@ -227,7 +227,7 @@ const workExperiences = {
       desc: "Digital advice platform of the Ministry of Agriculture and Livestock. ",
       descBullets: [
         "Member of the Globy team ",
-        "CDD",
+        "Fixed-term contract",
         "Skills : Express.js · Front Office · Ant Design · Yarn · Jira · sequelize · Swagger API · React.js · PostgreSQL"
       ]
     },
