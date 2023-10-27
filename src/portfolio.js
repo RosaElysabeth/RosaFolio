@@ -187,6 +187,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer Extern",
+      company: "FTA",
+      companylogo: require("./assets/images/fta.jpg"),
+      date: "June 2022 – August 2023",
+      desc: "Customized version of the R2E2F for Madagascar : Bridge that will bring researchers, extension workers, and farmers together",
+      descBullets: [
+        "Member TNRUnlimited team ",
+        "CDD",
+        "Skills : React - Next"
+      ]
+    },
+    {
+      role: "Full Stack Developer Extern",
+      company: "AFAAS",
+      companylogo: require("./assets/images/afaas.jfif"),
+      date: "December 2022 – April 2023",
+      desc: "Bridge that will bring researchers, extension workers, and farmers together",
+      descBullets: [
+        "Member TNRUnlimited team ",
+        "CDD",
+        "Skills : React - Next"
+      ]
+    },
+    {
       role: "Student Trainee",
       company: "Unité de Gouvernance Digitale",
       companylogo: require("./assets/images/ugd.jfif"),
@@ -247,9 +271,21 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/fta.jpg"),
+      projectName: "FTA",
+      projectDesc: "The RohyFambolena platform is a customized version of the R2E2F open source platform for Madagascar, developed during the Hackathon 2021-2022 with AFAAS with funding from the European Union and IFAD.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rohyfambolena.mg/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/afaas.jfif"),
       projectName: "AFAAS",
-      projectDesc: "Database management of extension workers and their activities",
+      projectDesc: "Database management of extension workers and their activities. This networking facility is managed by the AFAAS under the CAADP XP4 programme and is jointly promoted by the FARA, ASARECA, CCARDESA and CORAF.",
       footerLink: [
         {
           name: "Visit Website",
@@ -261,10 +297,10 @@ const bigProjects = {
     {
       image: require("./assets/images/MINAE.jpg"),
       projectName: "MINAE",
-      projectDesc: "Digital advice platform",
+      projectDesc: "Digital advice platform (in deployment)",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Design Website",
           url: "https://design.penpot.app/#/view/13a77fb0-43fb-11ed-869b-c67f7655c7b3?page-id=13a77fb1-43fb-11ed-869b-c67f7655c7b3&section=interactions&index=0&share-id=be88a930-44b5-11ed-9ecb-aec52455fe53"
         }
       ]
@@ -274,10 +310,10 @@ const bigProjects = {
       projectName: "ENI Practice",
       projectDesc: "Design and production of a web application for the management of student internships",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "https://design.penpot.app/#/view/13a77fb0-43fb-11ed-869b-c67f7655c7b3?page-id=13a77fb1-43fb-11ed-869b-c67f7655c7b3&section=interactions&index=0&share-id=be88a930-44b5-11ed-9ecb-aec52455fe53"
-        // }
+        {
+          name: "In local version",
+          url: ""
+        }
       ]
     }
   ],
@@ -293,6 +329,18 @@ const achievementSection = {
     "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+  {
+      title: "DALF C1",
+      subtitle: "Diplôme Approfondi de Langue Française de niveau (C1).",
+      image: require("./assets/images/DELF_DALF.png"),
+      imageAlt: "DALF Logo",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: ""
+        // },
+      ]
+    },
     {
       title: "Africa-wide Hackathon Champion",
       subtitle:
@@ -306,7 +354,7 @@ const achievementSection = {
         },
         {
           name: "Website",
-          url: "https://innovaa.netlify.app/"
+          url: "http://r2e2f.afaas-africa.org"
         },
         {
           name: "Slideshow",
@@ -334,10 +382,10 @@ const achievementSection = {
       image: require("./assets/images/FCA.png"),
       imageAlt: "FCA Logo",
       footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
-        // },
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1MPpCtEd4KeBKWSHddnEbBrwcNvKxl48_/view?usp=sharing"
+        },
         {
           name: "Project",
           url: "https://innovaa.netlify.app/"
@@ -350,10 +398,10 @@ const achievementSection = {
       image: require("./assets/images/DELF_DALF.png"),
       imageAlt: "DELF Logo",
       footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: "https://drive.google.com/drive/folders/10U-AKtKIUUS_pRpT0hUEzXOVxG6rRCsv"
-        // },
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1M_qfsl2lGyA-7RPl7yZP9ATNS711bDpG/view?usp=sharing"
+        },
       ]
     },
     {
