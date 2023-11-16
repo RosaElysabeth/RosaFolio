@@ -228,7 +228,7 @@ const workExperiences = {
       descBullets: [
         "Member of the Globy team ",
         "Fixed-term contract",
-        "Skills : Express.js · Front Office · Ant Design · Yarn · Jira · sequelize · Swagger API · React.js · PostgreSQL"
+        "Skills : Express.js · Front Office · Ant Design · Yarn · Jira · sequelize · Swagger API · React.js · Redux · PostgreSQL"
       ]
     },
     {
@@ -306,13 +306,24 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/logoINNOVAA.png"),
+      projectName: "InnovAA",
+      projectDesc: "Innovation for African AEAS is smart innovative digital platform for the management of Agricultural Extension and Advisory Services (AEAS) actors and activities with beneficiaries in Africa.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://innovaa.netlify.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/logoENI.png"),
       projectName: "ENI Practice",
       projectDesc: "Design and production of a web application for the management of student internships",
       footerLink: [
         {
-          name: "In local version",
-          url: ""
+          name: "Visit Website",
+          url: "http://41.242.102.66:4000/#/login"
         }
       ]
     }
@@ -335,10 +346,10 @@ const achievementSection = {
       image: require("./assets/images/DELF_DALF.png"),
       imageAlt: "DALF Logo",
       footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: ""
-        // },
+        {
+          name: "Certification",
+          url: ""
+        },
       ]
     },
     {
@@ -402,6 +413,18 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/1M_qfsl2lGyA-7RPl7yZP9ATNS711bDpG/view?usp=sharing"
         },
+      ]
+    },
+    {
+      title: "ER COSMETICS",
+      subtitle: "Technical and financial director",
+      image: require("./assets/images/ER.jpg"),
+      imageAld:"ER COSMETICS logo",
+      footerLink: [
+        {
+          name: "Page",
+          url: "https://web.facebook.com/cosmeticsbyelysaetrosa"
+        }
       ]
     },
     {
