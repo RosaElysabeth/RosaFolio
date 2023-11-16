@@ -195,7 +195,7 @@ const workExperiences = {
       descBullets: [
         "Member TNRUnlimited team ",
         "Fixed-term contract",
-        "Skills : React - Next"
+        "Skills : Nest - React - Next"
       ]
     },
     {
@@ -207,7 +207,19 @@ const workExperiences = {
       descBullets: [
         "Member TNRUnlimited team ",
         "Fixed-term contract",
-        "Skills : React - Next"
+        "Skills : Nest - React - Next"
+      ]
+    },
+    {
+      role: "Full Stack Developer Extern",
+      company: "FCA",
+      companylogo: require("./assets/images/FCA.png"),
+      date: "November 2021",
+      desc: "Digital platform for the management of AEAS actors and their activities in Africa",
+      descBullets: [
+        "Member TNRUnlimited team ",
+        "Hackathon",
+        "Skills : Express - React - Firebase"
       ]
     },
     {
