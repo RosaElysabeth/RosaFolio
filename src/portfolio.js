@@ -26,7 +26,7 @@ const greeting = {
     "Computer science graduate with a passion for developing scalable web applications and working across the full stack. 🚀 I would jump at any opportunity to continue growing my skillset set while contributing to the positive outcome of making people : richer, smarter, and happier."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1wRdZVu905TpQqWh1XJVI4GNU-Qbk6NAM/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1x32ZlqWsxxPXVgVYzRzBONBofWdK0eSu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -129,10 +129,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Ecole Doctorale Modélisation Informatique - University of Fianarantsoa",
+      logo: require("./assets/images/logoENI.png"),
+      subHeader: "PhD Student",
+      duration: "December 2023 - Present ",
+      desc: "Data Science - Artificial Intelligence - Machine Learning - Explainable Artificial Intelligence - Spatial Data Analysis",
+      descBullets: [
+        "Laboratory : LIMAD",
+        "Reception Team : GLoRe"
+      ]
+    },
+    {
       schoolName: "Ecole Nationale d'Informatique - University of Fianarantsoa",
       logo: require("./assets/images/logoENI.png"),
       subHeader: "Research Master of Computer Science",
-      duration: "February 2022 - Present ",
+      duration: "February 2022 - December 2023 ",
       desc: "Software and Database Engineering",
       descBullets: [
         "President of ENI students association",
@@ -166,6 +177,10 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Data science",
+      progressPercentage: "70%"
+    },
+    {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
@@ -176,7 +191,8 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "50%"
-    }
+    },
+    
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -360,7 +376,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://drive.google.com/file/d/1bbv4s2DoI-mrFIcsQ9r6w5X0Wr7Od7jn/view?usp=sharing"
         },
       ]
     },
@@ -377,7 +393,7 @@ const achievementSection = {
         },
         {
           name: "Website",
-          url: "http://r2e2f.afaas-africa.org"
+          url: "https://innovaa.netlify.app/"
         },
         {
           name: "Slideshow",
