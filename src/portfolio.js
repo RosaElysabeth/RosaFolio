@@ -146,6 +146,8 @@ const educationInfo = {
       duration: "February 2022 - December 2023 ",
       desc: "Software and Database Engineering",
       descBullets: [
+        "Data scientist",
+        "Graduated with honors",
         "President of ENI students association",
         "Organized many events for ENI students"
       ]
