@@ -228,16 +228,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Teaching Assistant for Ralaivao Jean Christian:",
-      company: "CNTEMAD",
-      companylogo: require("./assets/images/cntemad.png"),
-      date: "May 2023",
-      desc: "As a teaching assistant for Professor Ralaivao Jean Christian, I had the opportunity to work closely with students in the Algorithms and Data Structures course, which focuses on the Pascal programming language.",
-      descBullets: [
-        "Proficiency in Pascal programming language - Strong understanding of algorithms and data structures - Effective teaching and communication skills - Problem-solving ability in Pascal programming - Grading and providing constructive feedback - Assisting students during lab sessions - Developing educational materials (examples, exercises) - Collaboration with the course instructor - Critical thinking and analytical skills - Adaptability and patience"
-      ]
-    },
-    {
       role: "Full Stack Developer Extern",
       company: "FTA",
       companylogo: require("./assets/images/fta.jpg"),
@@ -247,9 +237,19 @@ const workExperiences = {
         "Member TNRUnlimited team ",
         "Fixed-term contract",
         "Skills : Nest.js - React - Next.js - JavaScript/TypeScript - HTML5/CSS3 - RESTful APIs - Database Management (MySQL, PostgreSQL) - Version Control (Git) - UI/UX Design - Testing and Debugging - Deployment - Agile Methodologies - Problem-solving Skills - Communication Skills"
-      ]
-    },
-    {
+        ]
+        },
+        {
+          role: "Teaching Assistant for Ralaivao Jean Christian:",
+          company: "CNTEMAD",
+          companylogo: require("./assets/images/cntemad.png"),
+          date: "May 2023",
+          desc: "As a teaching assistant for Professor Ralaivao Jean Christian, I had the opportunity to work closely with students in the Algorithms and Data Structures course, which focuses on the Pascal programming language.",
+          descBullets: [
+            "Proficiency in Pascal programming language - Strong understanding of algorithms and data structures - Effective teaching and communication skills - Problem-solving ability in Pascal programming - Grading and providing constructive feedback - Assisting students during lab sessions - Developing educational materials (examples, exercises) - Collaboration with the course instructor - Critical thinking and analytical skills - Adaptability and patience"
+          ]
+        },
+        {
       role: "Full Stack Developer Extern",
       company: "AFAAS",
       companylogo: require("./assets/images/afaas.jfif"),
