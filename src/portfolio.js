@@ -23,7 +23,7 @@ const greeting = {
   username: "Rosa",
   title: "Hi all, I'm Rosa",
   subTitle: emoji(
-    "Computer science graduate with a passion for developing scalable web applications and working across the full stack. 🚀 I would jump at any opportunity to continue growing my skillset set while contributing to the positive outcome of making people : richer, smarter, and happier."
+    " Holder of a Research Master's degree in IT with a passion for developing scalable web applications and working across the entire technology stack.🚀As a PhD student in computer science, a researcher, and an engineer in computer science, I am constantly looking for opportunities to expand my skills while contributing to improving people's lives by making them \"richer, smarter, and happier\"."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1x32ZlqWsxxPXVgVYzRzBONBofWdK0eSu/view?usp=sharing", // Set to empty to hide the button
@@ -205,6 +205,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer",
+      company: "eMoney Solutions",
+      companylogo: require("./assets/images/logoeMoney.jpeg"),
+      date: "April 2024 – present",
+      desc: "eMoney Solutions is an african fintech founded in 2011, specializing in the development, integration and operation of payment solutions suited to countries with low rates of usage of banking services.",
+      descBullets: [
+        "Mauritius",
+        "Remote",
+        "Skills : Customer Journey, SCRUM, ODOO"
+      ]
+    },
+    {
+      role: "Lead Developer",
+      company: "Angona Project",
+      companylogo: require("./assets/images/angona.jpg"),
+      date: "January 2024 – Present",
+      desc: "I served as the lead developer for the Angona project, overseeing the development of a mobile application designed for Chef ZAP. The app focused on efficient data collection and analysis specifically tailored for mathematics tests.",
+      descBullets: [
+        "Fixed-term contract",
+        "Skills : Mobile App Development (Android/iOS) - UI/UX Design - Development (React Native) - Database Management (SQL)- Data Analysis and Reporting - Quality Assurance and Testing - Project Management - Communication and Collaboration"
+      ]
+    },
+    {
+      role: "Teaching Assistant for Ralaivao Jean Christian:",
+      company: "CNTMAD",
+      companylogo: require("./assets/images/cntemad.png"),
+      date: "May 2023",
+      desc: "As a teaching assistant for Professor Ralaivao Jean Christian, I had the opportunity to work closely with students in the Algorithms and Data Structures course, which focuses on the Pascal programming language.",
+      descBullets: [
+        "Proficiency in Pascal programming language - Strong understanding of algorithms and data structures - Effective teaching and communication skills - Problem-solving ability in Pascal programming - Grading and providing constructive feedback - Assisting students during lab sessions - Developing educational materials (examples, exercises) - Collaboration with the course instructor - Critical thinking and analytical skills - Adaptability and patience"
+      ]
+    },
+    {
       role: "Full Stack Developer Extern",
       company: "FTA",
       companylogo: require("./assets/images/fta.jpg"),
@@ -213,7 +246,7 @@ const workExperiences = {
       descBullets: [
         "Member TNRUnlimited team ",
         "Fixed-term contract",
-        "Skills : Nest - React - Next"
+        "Skills : Nest.js - React - Next.js - JavaScript/TypeScript - HTML5/CSS3 - RESTful APIs - Database Management (MySQL, PostgreSQL) - Version Control (Git) - UI/UX Design - Testing and Debugging - Deployment - Agile Methodologies - Problem-solving Skills - Communication Skills"
       ]
     },
     {
@@ -225,7 +258,7 @@ const workExperiences = {
       descBullets: [
         "Member TNRUnlimited team ",
         "Fixed-term contract",
-        "Skills : Nest - React - Next"
+        "Skills : Nest.js - React - Next.js - JavaScript/TypeScript - HTML5/CSS3 - RESTful APIs - Database Management (MySQL, PostgreSQL) - Version Control (Git) - UI/UX Design - Testing and Debugging - Deployment - Agile Methodologies - Problem-solving Skills - Communication Skills"
       ]
     },
     {
@@ -237,7 +270,8 @@ const workExperiences = {
       descBullets: [
         "Member TNRUnlimited team ",
         "Hackathon",
-        "Skills : Express - React - Firebase"
+        "Skills : Express.js - React - Next.js - JavaScript/TypeScript - HTML5/CSS3 - RESTful APIs - Database Management (Firebase) - Version Control (Git) - UI/UX Design - Testing and Debugging - Deployment - Agile Methodologies - Problem-solving Skills - Communication Skills"
+      
       ]
     },
     {
@@ -247,6 +281,7 @@ const workExperiences = {
       date: "October 2022 – January 2023",
       descBullets: [
         "Visit and interview of users",
+       "Skills: User research, interviewing techniques, data gathering, qualitative analysis"
         ]
     },
     {
@@ -258,7 +293,7 @@ const workExperiences = {
       descBullets: [
         "Member of the Globy team ",
         "Fixed-term contract",
-        "Skills : Express.js · Front Office · Ant Design · Yarn · Jira · sequelize · Swagger API · React.js · Redux · PostgreSQL"
+        "Skills: Express.js - Front Office - Ant Design - Yarn - Jira - Sequelize - Swagger API - React.js - Redux - PostgreSQL - RESTful APIs - Git - Responsive Design"
       ]
     },
     {
@@ -371,6 +406,70 @@ const achievementSection = {
 
   achievementsCards: [
   {
+      title: "Oral Communication",
+      subtitle: "Presented an oral communication at the 2024 Research Days of the University of Fianarantsoa.",
+      image: require("./assets/images/jr.png"),
+      imageAlt: "Research Days Logo",
+      footerLink: [
+        {
+          name: "Communication",
+          url: "http://univ-fianarantsoa.cloudns.ph/publication/site#/article_vue?id=262"
+        },
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/12CbqxmC-suoC2dnOJ2sp9-Nza7RXxgYX/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Mathematics, Computer Science, Education, and Sciences Research Workshop",
+      subtitle: "Participated in the ARMIES Workshop organized by the University of Fianarantsoa and the Research Center for Mathematics Education",
+      image: require("./assets/images/ARMIES.png"),
+      imageAlt: "Online Professional English Network Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1mbFyAnZOhGkK9-5irYAdZAnI9Q3jKHhy/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "STEM MOOC",
+      subtitle: "English for Science, Technology, Engineering, and Mathematics",
+      image: require("./assets/images/mooc.png"),
+      imageAlt: "Online Professional English Network Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1lf8kj3VrNDTzML9eb1Wpa3SX-znbnXTf/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Collaborator at LIAM",
+      subtitle: "Collaborator and AI Researcher at the Madagascar Artificial Intelligence Laboratory",
+      image: require("./assets/images/liam.jpg"),
+      imageAlt: "LIAM Logo",
+      footerLink: [
+        {
+          name: "Convention",
+          url: "https://drive.google.com/file/d/1eeASFnF-XxMiQGPLw1Wmj-aXl6KQ9QUs/view?usp=sharing"
+        },
+      ]
+    },
+  {
+      title: "Workshop at AUF",
+      subtitle: "Attended the workshop \"Producing, Disseminating, and Promoting Research Work\" at the Francophone Digital Campus of Antananarivo, organized by the Agence Universitaire de la Francophonie.",
+      image: require("./assets/images/auf.png"),
+      imageAlt: "AUF Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1cWiIhobabXti_YjkqsrOM-hFjCtlL2H-/view?usp=sharing"
+        },
+      ]
+    },
+  {
       title: "DALF C1",
       subtitle: "Diplôme Approfondi de Langue Française de niveau (C1).",
       image: require("./assets/images/DELF_DALF.png"),
@@ -378,7 +477,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1bbv4s2DoI-mrFIcsQ9r6w5X0Wr7Od7jn/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1gVJxsJ5rPcXxXeInLLwTYTZJf4QQEKTz/view?usp=sharing"
         },
       ]
     },
@@ -545,7 +644,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "034 90 784 45 - 032 87 538 44",
+  number: "+261 34 90 784 45 - +261 32 87 538 44",
   email_address: "ralinirinarosa7@gmail.com"
 };
 
