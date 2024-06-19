@@ -229,7 +229,7 @@ const workExperiences = {
     },
     {
       role: "Teaching Assistant for Ralaivao Jean Christian:",
-      company: "CNTMAD",
+      company: "CNTEMAD",
       companylogo: require("./assets/images/cntemad.png"),
       date: "May 2023",
       desc: "As a teaching assistant for Professor Ralaivao Jean Christian, I had the opportunity to work closely with students in the Algorithms and Data Structures course, which focuses on the Pascal programming language.",
